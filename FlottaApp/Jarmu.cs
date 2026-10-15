@@ -27,7 +27,7 @@ namespace FlottaApp
 
         public virtual int Adokalkulacio()
         {
-            
+            return (int)(Alapar * 0.05);
         }
 
         public override string ToString()
